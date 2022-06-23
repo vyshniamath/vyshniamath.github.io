@@ -1,9 +1,11 @@
 <style>
     .r {
         color: #9B1F21;
+        font-weight: bold;
     }
     .c {
         color: #4b8b3b;
+        font-weight: bold;
     }
 </style>
 
