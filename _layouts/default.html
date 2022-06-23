@@ -2,13 +2,7 @@
 <html>
 	<head>
 		{% include meta.html %}
-		<link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet" />
-		<link
-			href="/css/style.css"
-			rel="stylesheet"
-			type="text/css"
-			media="all"
-		/>
+        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 		{% include math.html %}
 	</head>
 	<body>
