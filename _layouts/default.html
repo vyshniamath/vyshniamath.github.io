@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		{% include meta %}
+		{% include meta.html %}
 		<link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet" />
 		<link
 			href="/css/style.css"
@@ -9,7 +9,7 @@
 			type="text/css"
 			media="all"
 		/>
-		{% if page.use_math %} {% include math %} {% endif %}
+		{% include math.html %}
 	</head>
 	<body>
 		{% include navigation_bar %}
